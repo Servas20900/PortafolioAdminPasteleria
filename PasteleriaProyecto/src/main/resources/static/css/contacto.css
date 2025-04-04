@@ -46,10 +46,13 @@ a {
     width: 250px;
     height: 210px;
     color: #fff;
-    background-color: #f69a7b;
+    background-color: #d0a3ae;
     border-radius: 7px;
     padding: 0 10px;
     place-items: center;
+    border: 2px solid rgb(196, 158, 158)0e6; /* Borde negro agregado */
+
+
     
 }
 
