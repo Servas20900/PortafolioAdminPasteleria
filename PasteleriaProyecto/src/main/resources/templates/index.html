@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="~{layout/plantilla :: head}">
+    <title>Dulce Pastelito</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+    <!-- Header con navegación -->
+    <header th:replace="~{layout/plantilla :: header}" />
+
+    <!-- Sección Principal -->
+    <section class="hero">
+        <img src="/img/landing.png" class="fondo" alt="Pasteles">
+        <div class="hero-content">
+            <h1>DULCE PASTELITO</h1>
+            <p>El mejor sabor en cada bocado.</p>
+            <a th:href="@{/promociones}" class="btn">Ver promociones</a>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section class="about">
+        <h2>Quiénes somos</h2>
+        <p>
+            Somos un equipo comprometido con la innovación digital y el desarrollo web, 
+            enfocados en brindar soluciones prácticas y funcionales a negocios locales. 
+            Actualmente, trabajamos en el desarrollo de la página web para la pastelería “Dulce Pastelito”, 
+            un proyecto que no solo busca mejorar la presencia en línea de la empresa, sino también aplicar 
+            conocimientos reales sobre la gestión y ejecución de proyectos.
+        </p>
+        <p>
+            A través de este desarrollo, enfrentamos desafíos técnicos y de planificación, llevando a cabo 
+            estudios de factibilidad que abarcan aspectos económicos, legales, de mercado y de tiempo. 
+            Nuestro objetivo es impulsar el crecimiento digital de “Dulce Pastelito”, optimizando la experiencia 
+            del cliente y aportando valor mediante una solución digital efectiva y personalizada.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer th:replace="~{layout/plantilla :: footer}" />
+
+</body>
+</html>

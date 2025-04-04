@@ -1,0 +1,90 @@
+body {
+    font-family: "Montserrat";
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+.contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-top: 40px;
+}
+
+.contacto-card {
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    width: 250px;
+    height: 210px;
+    color: #fff;
+    background-color: #f69a7b;
+    border-radius: 7px;
+    padding: 0 10px;
+    place-items: center;
+    
+}
+
+.contacto-icon-white {
+    color: #fff;
+    font-size: 32px;
+}
+
+.btn-gradient-instagram {
+    background: linear-gradient(
+            90deg,
+            rgba(131, 58, 180, 1) 0%,
+            rgba(255, 139, 0, 1) 100%
+    );
+}
+
+.btn-gradient-whatsapp {
+    background: linear-gradient(
+            90deg,
+            rgba(169, 194, 111, 1) 0%,
+            rgba(49, 173, 60, 1) 100%
+    );
+}
+
+.btn-gradient-facebook {
+    background: linear-gradient(
+            90deg,
+            rgba(10, 9, 202, 1) 0%,
+            rgba(0, 200, 255, 1) 100%
+    );
+}
+
+.contacto-card--heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

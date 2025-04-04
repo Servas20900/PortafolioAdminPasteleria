@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="~{layout/plantilla :: head}">
+    <title>Patisserie</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+    <header th:replace="~{layout/plantilla :: header}" />
+    
+    <section class="heross">
+        <h1>¡Deléitate con cada bocado!</h1>
+        <p>Experimente la dulzura de nuestros mejores pasteles.</p>
+        <button>Ordena ya</button>
+    </section>
+    
+    <section class="signature">
+        <h2>Postres</h2>
+        <div class="items">
+            <div class="item">
+              <img src="/img/1.png"  alt="Pasteles">
+              <h3>Macarons</h3>
+          </div>
+          <div class="item">
+              <img src="/img/2.png"  alt="Pasteles">
+              <h3>Custom Cakes</h3>
+          </div>
+          <div class="item">
+              <img src="/img/3.png"  alt="Pasteles">
+              <h3>Cupcake Collections</h3>
+          </div>
+        </div>
+    </section>
+    
+    <section class="holiday">
+        <h2>Holiday Collection</h2>
+        <p>20% OFF</p>
+        <button>Order Today</button>
+    </section>
+    
+    <footer th:replace="~{layout/plantilla :: footer}" />
+</body>
+</html>

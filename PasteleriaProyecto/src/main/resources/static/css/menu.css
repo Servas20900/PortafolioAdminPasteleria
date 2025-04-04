@@ -1,0 +1,69 @@
+
+.heross {
+    background: #f8e0e6;
+    padding: 50px 20px;
+}
+
+.heross h1 {
+    font-size: 2.5em;
+    color: #5a3e36;
+}
+
+.heross p {
+    font-size: 1.2em;
+    color: #7a5c51;
+}
+
+.heross button, .holiday button {
+    background: #d16c7f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signature {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.signature h2, .holiday h2 {
+    font-size: 2em;
+    color: #5a3e36;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background: #ffe5ec;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item h3 {
+    color: #5a3e36;
+    font-size: 1.2em;
+}
+
+.holiday {
+    background: #fbe4e6;
+    padding: 40px 20px;
+}
+
+.holiday p {
+    font-size: 1.5em;
+    color: #d16c7f;
+}
