@@ -26,4 +26,10 @@ public class NavegationController {
         return "trabajos"; // Esto buscará vista.html en templates/
     }
 
+
+    @GetMapping("/login") // Nueva ruta para vista.html
+    public String mostrarLogin() {
+        return "login"; // Esto buscará vista.html en templates/
+    }
+
 }
